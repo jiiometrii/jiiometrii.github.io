@@ -1,7 +1,8 @@
 # jiiometrii.github.io
 
 Included in this repository are my personal projects and school projects\
-Projects are from coursera, CCAPDEV course, codecademy, freeCodeCamp
+Projects are from coursera, CCAPDEV course, codecademy, freeCodeCamp\
+Main page is still in construction :grin:
 
 ## Mini Challenge - CCAPDEV course
 - project specifications is to create a biography page including links and pictures
