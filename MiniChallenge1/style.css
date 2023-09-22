@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Krona One;
+    src:url(KronaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lexend;
+    src: url(Lexend-VariableFont-wght.ttf);
+}
+
+body {
+    background-color: #27005D;
+}
+
+.genInfo {
+    width: 33.33%;
+    background: #AED2FF;
+    float: right;
+    min-height: 100vh;
+    border: 0px;
+    position:fixed;
+    right:-1px;
+    top:-1px;
+}
+
+.persPic {
+    width: 70%;
+    height: 70%;
+}
+
+.samplePic {
+    width: 283px;
+    height: 236px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+    margin-bottom: 17px;
+}
+
+.p2 {
+    color: #FFF;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.p3 {
+    color: #27005D;
+    font-family: Krona One;
+    font-size: 105%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
+
+.sideFormat {
+    margin-left: 20%;
+    margin-top: 25%;
+}
+
+.imgLink {
+    width: 68px;
+    height: 68px;
+    margin-right: 20px;
+}
+
+@media (min-width: 992px){
+    .col-lg-9, .col-lg-3{
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33.33%
+    }
+    .col-lg-9 {
+        width: 66.67%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+}
