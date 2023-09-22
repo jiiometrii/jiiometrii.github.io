@@ -23,10 +23,13 @@ body {
     font-size: 1em;
     padding-bottom: 10px;
 }
-
-#menu{
-    color: #c4aadd;
+#menu {
     text-indent: 2%;
+    color: #c4aadd;
+}
+.menu-header{
+    color: #c4aadd !important;
+    text-decoration: none;
 }
 /**END HEADER**/
 
